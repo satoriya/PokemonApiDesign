@@ -20,6 +20,8 @@
 		36D93BE029C1B8FD00214301 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D93BDF29C1B8FD00214301 /* NetworkService.swift */; };
 		36D93BE629C1BBFA00214301 /* ListPokemonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D93BE529C1BBFA00214301 /* ListPokemonInteractor.swift */; };
 		36D93BE829C1BD1B00214301 /* ListPokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D93BE729C1BD1B00214301 /* ListPokemonModel.swift */; };
+		36D93BEA29C1C49D00214301 /* ListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D93BE929C1C49D00214301 /* ListBuilder.swift */; };
+		36D93BEC29C1C87C00214301 /* ListPokemonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D93BEB29C1C87C00214301 /* ListPokemonPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		36D93BDF29C1B8FD00214301 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		36D93BE529C1BBFA00214301 /* ListPokemonInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonInteractor.swift; sourceTree = "<group>"; };
 		36D93BE729C1BD1B00214301 /* ListPokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonModel.swift; sourceTree = "<group>"; };
+		36D93BE929C1C49D00214301 /* ListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBuilder.swift; sourceTree = "<group>"; };
+		36D93BEB29C1C87C00214301 /* ListPokemonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemonPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				36D93BE229C1BA7F00214301 /* Presenter */,
 				36D93BE129C1BA7200214301 /* Interactor */,
 				36D93BD329C1B35600214301 /* View */,
+				36D93BE929C1C49D00214301 /* ListBuilder.swift */,
 			);
 			path = ListPokemon;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 		36D93BE229C1BA7F00214301 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				36D93BEB29C1C87C00214301 /* ListPokemonPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D93BC029C1A1AA00214301 /* ListPokemonViewController.swift in Sources */,
+				36D93BEA29C1C49D00214301 /* ListBuilder.swift in Sources */,
+				36D93BEC29C1C87C00214301 /* ListPokemonPresenter.swift in Sources */,
 				36D93BBC29C1A1AA00214301 /* AppDelegate.swift in Sources */,
 				36D93BDA29C1B58900214301 /* ListPokemonViewController+UICollectionView.swift in Sources */,
 				36D93BE829C1BD1B00214301 /* ListPokemonModel.swift in Sources */,

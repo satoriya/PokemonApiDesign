@@ -51,7 +51,7 @@ extension ListPokemonInteractor: ListInteractorInput {
     }
     
     func fetchPokemonDetail(urlString: String) {
-        
+        // to be continued
     }
     
 }
